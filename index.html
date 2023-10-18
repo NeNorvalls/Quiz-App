@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Interactive Quiz App</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <!-- Container to display quiz content -->
+    <div class="container">
+      <h1>Test Questions</h1>
+      <div id="quiz-container"></div>
+    </div>
 
-   <!-- Container to display quiz content -->
-   <div class="container">
-    <h1>Test Questions</h1>
-    <div id="quiz-container"></div>
-   </div>
- 
-   <div class="container">
-    <h2>Answers</h2>
-     <!-- Container to display results -->
-     <div id="results-container"></div>
-   </div>
-   
+    <div class="container">
+      <h2>Answers</h2>
+      <!-- Container to display results -->
+      <div id="results-container"></div>
+    </div>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll</button>  
+    <footer>
+      <span>Designed by: NeNorvalls</span>
+    </footer>
+
     <script src="./questions.js"></script>
     <script src="./scripts.js"></script>
-</body>
-
+    <script src="./scrollToTop.js"></script>
+  </body>
 </html>
