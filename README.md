@@ -1,5 +1,6 @@
 # Interactive Quiz App
 
+![Quiz App](/QuizAppCover.jpg)
 [Visit My Project on Netlify](https://nenorvalls-quiz-app.netlify.app/)
 
 This repository contains an interactive quiz implemented in HTML, CSS, and JavaScript. The quiz dynamically generates questions and allows users to submit their answers for evaluation.
