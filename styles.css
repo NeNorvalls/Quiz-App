@@ -86,10 +86,10 @@ footer {
 
 .back-to-landing {
   font-weight: bold;
-  display: block; 
-  margin: 0 auto; 
-  padding: 1rem; 
-  text-align: center; 
+  display: block;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
   text-decoration: none;
 }
 
@@ -98,3 +98,13 @@ footer {
   color: #ffd700;
 }
 
+.go-back-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
