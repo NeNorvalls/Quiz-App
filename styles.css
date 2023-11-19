@@ -112,3 +112,9 @@ footer {
   color: darkred;
   letter-spacing: 3px;
 }
+
+.portfolio-link:hover {
+  text-decoration: double;
+  background-color: gold;
+  color: blue;
+}
