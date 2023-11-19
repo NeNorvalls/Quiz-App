@@ -3,28 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Interactive Quiz App - Test your knowledge with this interactive quiz. Answer questions and receive instant feedback." />
-    <meta name="keywords" content="Interactive Quiz, Quiz App, Test Your Knowledge, JavaScript Quiz, Web Quiz" />
+    <meta
+      name="description"
+      content="Interactive Quiz App - Test your knowledge with this interactive quiz. Answer questions and receive instant feedback."
+    />
+    <meta
+      name="keywords"
+      content="Interactive Quiz, Quiz App, Test Your Knowledge, JavaScript Quiz, Web Quiz"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Interactive Quiz App - Test Your Knowledge</title>
   </head>
 
   <body>
-    <!-- Container to display quiz content -->
     <div class="container">
-        <h1 id="goBackButton">Test Questions</h1>
+      <h1>Test Questions</h1>
       <div id="quiz-container"></div>
+      <p id="portfolio-text">
+        Click here to go back to PortFolio!
+        <a
+          href="https://nenorvalls-portfolio.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="portfolio-link"
+          >Portfolio</a
+        >
+      </p>
     </div>
 
     <div class="container">
       <h2>Answers</h2>
-      <!-- Container to display results -->
       <div id="results-container"></div>
     </div>
-    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll</button> 
-    <button id="goBackButton" class="go-back-button">
-      Go back to portfolio!
-    </button> 
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll</button>
     <footer>
       <span>Designed by: NeNorvalls</span>
     </footer>
@@ -32,6 +44,5 @@
     <script src="./questions.js"></script>
     <script src="./scripts.js"></script>
     <script src="./scrollToTop.js"></script>
-    <script src="GoBackButton.js"></script>
   </body>
 </html>
